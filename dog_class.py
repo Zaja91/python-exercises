@@ -13,10 +13,6 @@ class Dog:
   def roll_over(self):
     print(f"{self.name} is now rolling over!!!")
 
-iron = Dog("Iron", 3)
-iron.sit()
-iron.roll_over
-
 class Car:
 
   def __init__(self, make, model, year):
@@ -31,8 +27,3 @@ class Car:
 
   def read_odometer(self):
     print(f"This car has {self.odometer_reading} miles on it.")
-  
-
-my_new_car = Car("audi", "a4", "2019")
-print(my_new_car.get_descriptive_name())
-my_new_car.read_odometer()
