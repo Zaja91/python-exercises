@@ -1,0 +1,43 @@
+Liste
+
+il for loop si scrive cosi:
+
+for value in List
+    do something
+
+if value not in List
+    do something
+
+if value in List
+    do something
+
+tuple = immutable List
+
+Dictionaries
+
+Key, value pairs
+
+for value in Dictionarie
+    do something
+    # itera solo le keys
+
+for key, value in Dictionaries
+    do something
+    # itera sia le key che le value
+
+for value in set(Dictionaries)
+    do something
+    # itera gli elementi non prendendo in 
+    # considerazione i doppioni
+
+
+• Making a shallow copy of an object won’t clone child objects.
+Therefore, the copy is not fully independent of the original.
+
+• A deep copy of an object will recursively clone child objects. The
+clone is fully independent of the original, but creating a deep
+copy is slower.
+
+• You can copy arbitrary objects (including custom classes) with
+the copy module.
+
