@@ -40,7 +40,7 @@ print(name)
 # print_models(unprinted_designs[:], completed_models) vogliamo mandare una lista che pero non vogliamo che la fun
 # la cambi percio con [:] mandiamo uno slice cioe una copia
 
-def build_profile(first, last, *user_info): # due un solo * mi permette di passare quanti args voglio ma non crea
+def build_profile(first, last, *user_info): # un solo * (tuple) mi permette di passare quanti args voglio ma non crea
     pass                                    # nessun dictionary or list
 def build_profile_2(first, last, **user_info): # due ** creano un dictionaries che key value pairs 
     pass
